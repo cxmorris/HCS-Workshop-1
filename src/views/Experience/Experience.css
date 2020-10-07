@@ -17,9 +17,9 @@
 }
 
 .timeline-item:hover {
-  -webkit-transform: scale(2);
-  transform: scale(2);
-  background-color: cornflowerblue;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  background-color: rgb(226, 230, 196);
 }
 
 .timeline-ball {
@@ -27,7 +27,7 @@
   width: 24px;
   height: 24px;
   border-radius: 12px;
-  background: crimson;
+  background: rgba(206, 201, 202, 0.363);
 }
 
 .experience-info {
@@ -45,7 +45,7 @@ p {
   flex-direction: column;
   width: 50%;
   height: calc(100%);
-  background: crimson;
+  background: rgba(211, 202, 204, 0.274);
   position: -webkit-sticky;
   position: sticky;
   top: 48px;
