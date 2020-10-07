@@ -1,0 +1,28 @@
+.abouty-background {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    height: 160px;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    color: black;
+    padding: 16px 0;
+  }
+  
+  .abouty-background:hover {
+    
+    color: #2a2e5a;
+    
+  }
+  
+  .abouty-image {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .abouty-info {
+    flex: 2;
+    padding: 16px;
+  }
